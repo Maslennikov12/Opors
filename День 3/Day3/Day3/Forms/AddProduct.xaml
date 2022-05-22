@@ -1,0 +1,49 @@
+﻿<Window x:Class="Day3.Forms.AddProduct"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Day3.Forms"
+        mc:Ignorable="d"
+        Title="" Height="365.872" Width="694.393" WindowStartupLocation="CenterScreen" Icon="service_logo.ico" ResizeMode="NoResize">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="HorizontalAlignment" Value="Right">
+            </Setter>
+            <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="0,0,4,0" Background="#FFFFFFE3">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="40"></RowDefinition>
+        </Grid.RowDefinitions>
+        <UniformGrid Columns="2" Height="200" Margin="168,34,0,-193" Grid.Row="1" HorizontalAlignment="Left" Width="348">
+            <TextBlock>Наименование</TextBlock>
+            <TextBox x:Name="NameTxb" Text="{Binding Title}"/>
+            <TextBlock>Цена</TextBlock>
+            <TextBox x:Name="CostTxb" Text="{Binding Cost, StringFormat=0.00}"/>
+            <TextBlock>Производитель</TextBlock>
+            <ComboBox x:Name="CmbManufacturer" SelectedItem="{Binding Manufacturer, Mode=TwoWay, UpdateSourceTrigger=Explicit}" DisplayMemberPath="Name"/>
+            <Button x:Name="AddImage" Content="Добавить изображение" Click="AddImage_Click">
+            </Button>
+            <Image x:Name="ProductImage" Source="{Binding MainImagePath}"></Image>
+            <TextBlock>Активен?</TextBlock>
+            <CheckBox x:Name="CheckedAct" Margin="0,12,0,10" IsChecked="{Binding IsActive}"></CheckBox>
+        </UniformGrid>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="256,0,0,-257" Grid.Row="1" Width="90" Click="Button_Click_1" Height="35" VerticalAlignment="Bottom" Background="#FFFF9C1A" BorderBrush="#FFFFFFE3"/>
+        <Button Content="Отмена" Margin="403,0,153,-257" Grid.Row="1" Click="Button_Click" Height="35" VerticalAlignment="Bottom" RenderTransformOrigin="0.234,0.667" Background="#FFFF9C1A" BorderBrush="#FFFFFFE3">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.161"/>
+                    <RotateTransform/>
+                    <TranslateTransform Y="0.155"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button x:Name="DeleteBtn" Content="Удалить" HorizontalAlignment="Left" Margin="97,0,0,-257" Grid.Row="1" Width="91" Height="35" VerticalAlignment="Bottom" Click="DeleteBtn_Click" Background="#FFFF9C1A" BorderBrush="#FFFFFFE3"/>
+        <StackPanel Grid.RowSpan="2"/>
+    </Grid>
+</Window>

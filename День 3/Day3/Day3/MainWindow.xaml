@@ -1,0 +1,66 @@
+﻿<Window x:Class="Day3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Day3"
+        mc:Ignorable="d"
+        Title="" Height="461.333" Width="1315.2" Icon="service_logo.ico" Background="#FFFFFFE3">
+    <Grid Margin="210,0,0,-3">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="179*"/>
+            <ColumnDefinition Width="926*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,5" Grid.ColumnSpan="2">
+            <Label Margin="10,0,10,0">Производитель</Label>
+            <ComboBox x:Name="CmbManufacturer" SelectionChanged="CmbManufacturer_SelectioChanged" Width="200" SelectedItem="{Binding Manufacturer}" DisplayMemberPath="Name"></ComboBox>
+            <Label Margin="30,0,10,0">Наименование</Label>
+            <TextBox x:Name="TxtNameSearch" TextChanged="TxtNameSearch_TextChadged" Width="200"></TextBox>
+            <Label Margin="10,0,10,0">Сортировка стоимости</Label>
+            <ComboBox x:Name="Sort" SelectionChanged="CmbCost_TextChanged" Width="200">
+                <ComboBoxItem Content="Нет сортировки"/>
+                <ComboBoxItem Content="По возрастанию"/>
+                <ComboBoxItem Content="По убыванию"/>
+            </ComboBox>
+        </StackPanel>
+        <ListView Name="LViewProducts" Grid.Row="1" ScrollViewer.HorizontalScrollBarVisibility="Disabled"  Loaded="ListView_Loaded" Foreground="#FF000003" BorderBrush="White" Margin="0,0,0,45" Background="#FFFFFFE3" Grid.ColumnSpan="2" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Width="250" Height="250" >
+                        <Grid.Background>
+                            <SolidColorBrush Color="{Binding ProductColor}"></SolidColorBrush>
+                        </Grid.Background>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Image Grid.Row="0" Source="{Binding MainImagePath}" Stretch="Uniform"/>
+                        <Grid Grid.Row="1" Background="White" Opacity="0.5"/>
+                        <TextBlock Grid.Row="1" TextWrapping="Wrap" Text="{Binding Title}" TextAlignment="Center" FontSize="18" Margin="0,3,0,0"/>
+                        <TextBlock Grid.Row="1" TextWrapping="Wrap" Text="{Binding Cost, StringFormat={}{0:N0} руб.}" TextAlignment="Center" FontSize="16" Margin="0,30,0,10"  VerticalAlignment="Bottom"/>
+                        <Button Content="Изменить" Grid.Row="1" HorizontalAlignment="Left" Margin="50,50,0,0" VerticalAlignment="Top" Width="144" Background="#FFFF9C1A" BorderBrush="#FFFFFFE3" Click="Button_Click_3"/>
+                        <TextBlock Grid.Row="1" TextWrapping="Wrap" Text="{Binding Active}" Margin="95,75,0,0"></TextBlock>
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel></WrapPanel>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+        </ListView>
+        <Rectangle Fill="#FFFFFFE3" HorizontalAlignment="Left" Margin="-196,0,0,8" Grid.Row="1" Stroke="#FFFF9C1A" Width="167"/>
+        <Button Content="ёДобавить" HorizontalAlignment="Left" Margin="-186,17,0,0" Grid.Row="1" VerticalAlignment="Top" Width="144" Background="#FFFF9C1A" BorderBrush="#FFFFFFE3" Click="Button_Click_2"/>
+        <Button Content="Выход" HorizontalAlignment="Left" Margin="-186,0,0,22" Grid.Row="1" Width="144" Background="#FFFF9C1A" BorderBrush="#FFFFFFE3" Click="Button_Click_1" Height="20" VerticalAlignment="Bottom"/>
+        <Button x:Name="PreviousPageBtn" Content="&lt;" HorizontalAlignment="Right" Margin="0,0,353,17" Grid.Row="1" VerticalAlignment="Bottom" Background="#FFFF9C1A" Width="38" Click="PreviousPageBtn_Click" Height="20" BorderBrush="#FFFF9C1A" Grid.Column="1"/>
+        <Button x:Name="FirstPageBtn" Content="&lt;&lt;" HorizontalAlignment="Right" Margin="0,0,391,17" Grid.Row="1" VerticalAlignment="Bottom" Background="#FFFF9C1A" Width="38" Click="FirstPageBtn_Click" BorderBrush="#FFFF9C1A" Grid.Column="1"/>
+        <TextBlock x:Name="CurrentPageBox" Margin="0,0,289,19" Grid.Row="1" TextWrapping="Wrap" Text="" Height="16" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="53" Grid.Column="1"/>
+        <Button x:Name="NextPageBtn" Content=">" HorizontalAlignment="Right" Margin="0,0,252,17" Grid.Row="1" VerticalAlignment="Bottom" Width="38" Background="#FFFF9C1A" Click="NextPageBtn_Click" BorderBrush="#FFFF9C1A" Grid.Column="1"/>
+        <Button x:Name="LastPageBtn" Content=">>" HorizontalAlignment="Right" Margin="0,0,214,17" Grid.Row="1" VerticalAlignment="Bottom" Width="38" Background="#FFFF9C1A" Click="LastPageBtn_Click" BorderBrush="#FFFF9C1A" Grid.Column="1"/>
+        <StackPanel Grid.Column="1" Grid.Row="1"/>
+    </Grid>
+</Window>

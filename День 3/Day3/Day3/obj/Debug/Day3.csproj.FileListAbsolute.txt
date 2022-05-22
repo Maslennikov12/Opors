@@ -1,0 +1,94 @@
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\MainWindow.g.cs
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\App.g.cs
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3_Content.g.cs
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3_MarkupCompile.cache
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3_MarkupCompile.lref
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\bin\Debug\Day3.exe.config
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\bin\Debug\Day3.exe
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\bin\Debug\Day3.pdb
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\bin\Debug\EntityFramework.dll
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\bin\Debug\EntityFramework.SqlServer.dll
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\bin\Debug\EntityFramework.xml
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\bin\Debug\EntityFramework.SqlServer.xml
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\bin\Debug\ru\EntityFramework.resources.dll
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\MainWindow.baml
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3.g.resources
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3.Properties.Resources.resources
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3.csproj.GenerateResource.cache
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3.csproj.CoreCompileInputs.cache
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3.csproj.CopyComplete
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3.exe
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3.pdb
+H:\Рабочий стол\Уп Чухарев\День 3\Day3\Day3\obj\Debug\Day3.csproj.AssemblyReference.cache
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\bin\Debug\Day3.exe.config
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\bin\Debug\Day3.exe
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\bin\Debug\Day3.pdb
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\bin\Debug\EntityFramework.dll
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\bin\Debug\EntityFramework.xml
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3.csproj.AssemblyReference.cache
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3.csproj.SuggestedBindingRedirects.cache
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\MainWindow.g.cs
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\App.g.cs
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3_Content.g.cs
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3_MarkupCompile.cache
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3_MarkupCompile.lref
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\MainWindow.baml
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3.g.resources
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3.Properties.Resources.resources
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3.csproj.GenerateResource.cache
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3.csproj.CoreCompileInputs.cache
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3.csproj.CopyComplete
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3.exe
+C:\Users\melki\OneDrive\Desktop\День 3\Day3\Day3\obj\Debug\Day3.pdb
+H:\Рабочий стол\День 3\Day3\Day3\bin\Debug\Day3.exe.config
+H:\Рабочий стол\День 3\Day3\Day3\bin\Debug\Day3.exe
+H:\Рабочий стол\День 3\Day3\Day3\bin\Debug\Day3.pdb
+H:\Рабочий стол\День 3\Day3\Day3\bin\Debug\EntityFramework.dll
+H:\Рабочий стол\День 3\Day3\Day3\bin\Debug\EntityFramework.SqlServer.dll
+H:\Рабочий стол\День 3\Day3\Day3\bin\Debug\EntityFramework.xml
+H:\Рабочий стол\День 3\Day3\Day3\bin\Debug\EntityFramework.SqlServer.xml
+H:\Рабочий стол\День 3\Day3\Day3\bin\Debug\ru\EntityFramework.resources.dll
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\MainWindow.g.cs
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\App.g.cs
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3_Content.g.cs
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3_MarkupCompile.cache
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3_MarkupCompile.lref
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\MainWindow.baml
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3.g.resources
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3.Properties.Resources.resources
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3.csproj.GenerateResource.cache
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3.csproj.CoreCompileInputs.cache
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3.csproj.CopyComplete
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3.exe
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3.pdb
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Day3.csproj.AssemblyReference.cache
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Forms\AddProduct.g.cs
+H:\Рабочий стол\День 3\Day3\Day3\obj\Debug\Forms\AddProduct.baml
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\bin\Debug\Day3.exe.config
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\bin\Debug\Day3.exe
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\bin\Debug\Day3.pdb
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\bin\Debug\EntityFramework.dll
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\bin\Debug\EntityFramework.xml
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3.csproj.AssemblyReference.cache
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3.csproj.SuggestedBindingRedirects.cache
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Forms\AddProduct.g.cs
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\MainWindow.g.cs
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\App.g.cs
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3_Content.g.cs
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3_MarkupCompile.cache
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3_MarkupCompile.lref
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Forms\AddProduct.baml
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\MainWindow.baml
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3.g.resources
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3.Properties.Resources.resources
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3.csproj.GenerateResource.cache
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3.csproj.CoreCompileInputs.cache
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3.csproj.CopyComplete
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3.exe
+C:\Users\melki\OneDrive\Desktop\Клим\День 3\Day3\Day3\obj\Debug\Day3.pdb
